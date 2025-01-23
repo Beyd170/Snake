@@ -1,0 +1,28 @@
+body {
+    background-image: url('https://otvet.imgsmail.ru/download/b8ab5849ce7e7456f72d260c41d0c331_i-3284.jpg'); /* Замените на путь к вашему фону */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+  }
+  
+  #gameCanvas {
+    background-color: rgba(255, 255, 255, 0.8); /* Сделали фон немного прозрачным */
+    border: 2px solid #000;
+  }
+  
+  #title {
+    position: absolute;
+    top: 10px; /* Изменили позицию */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px; /* Изменили размер */
+    font-family: 'Arial Black', sans-serif; /*  Выбрали шрифт */
+    color: #333;
+    text-shadow: 2px 2px 4px #ccc; /* Добавили тень */
+    pointer-events: none;
+  }
